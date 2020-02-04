@@ -5,13 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="823.231">
-    <Grid Margin="17,26,0,0" HorizontalAlignment="Left" Width="774">
-        <Button Margin="283,269,352,92" Click="Button_Click_4">Додати товар</Button>
-        <Button Margin="253,47,319,314" Click="Button_Click">Дивитись інформацію про товар</Button>
-        <Button Margin="253,96,319,265" Click="Button_Click_1">Редагувати інформацію про товар</Button>
-        <Button Margin="253,142,319,219" Click="Button_Click_3">Видалити існуючий товар</Button>
-        <Button Margin="253,201,319,160" Content="Форматувати звіт" Click="Button_Click_2"/>
-
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Margin="33,63,530,141" Click="Add">Додаит товар</Button>
+        <Button Margin="292,63,289,298" Click="showInfo">Переглянути інформацію про товар</Button>
+        <Button Margin="292,142,289,219" Click="cahngeInfo">Редагувати інформацію про товар</Button>
+        <Button Margin="292,220,289,141" Click="Delete">Видалити існуючий товар</Button>
+        <Button Margin="532,63,10,141" Click="genReport">Згенерувати Звіт</Button>
     </Grid>
 </Window>

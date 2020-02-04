@@ -14,23 +14,23 @@ namespace WpfApp1
 
         int date { get; set; }
 
-        int expiration { get; set; }
+        int finDate { get; set; }
 
         int count { get; set; }
 
-        int cost { get; set; }
+        int price { get; set; }
 
-        string firm { get; set; }
+        string producer { get; set; }
 
-        int telephone { get; set; }
+        int phoneNumber { get; set; }
 
-        int nextDate { get; set; }
+        int startDate { get; set; }
 
         int storageNumber { get; set; }
 
-        string aBitAbout { get; set; }
+        string about { get; set; }
 
-        string leftInfo{ get; set; }
+        string notes { get; set; }
 
-}
+    }
 }

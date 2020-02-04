@@ -15,37 +15,49 @@ using System.Windows.Shapes;
 
 namespace WpfApp1
 {
-    /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
         public MainWindow()
         {
+            void addButton() {
+                Window1 x = new Window1();
+                this.Hide();
+                x.Show();
+                this.Close();
+            }
             InitializeComponent();
+            void AddProduct() { 
+               
+            }
         }
-        // Дивитись інфо
-        private void Button_Click(object sender, RoutedEventArgs e)
+
+        private void Add(object sender, RoutedEventArgs e)
+        {
+            this.Hide();
+            Window1 x = new Window1();
+            x.Show();
+            this.Close();
+        }
+
+        private void showInfo(object sender, RoutedEventArgs e)
+        {
+            this.Hide();
+            Window2 x = new Window2();
+            x.Show();
+            this.Close();
+        }
+
+        private void cahngeInfo(object sender, RoutedEventArgs e)
         {
 
         }
-        // Редагувати інфо
-        private void Button_Click_1(object sender, RoutedEventArgs e)
+
+        private void Delete(object sender, RoutedEventArgs e)
         {
 
         }
-        // Видалити товар інфо
-        private void Button_Click_3(object sender, RoutedEventArgs e)
-        {
 
-        }
-        // Форматувати звіт інфо
-        private void Button_Click_2(object sender, RoutedEventArgs e)
-        {
-
-        }
-        // Додати товар
-        private void Button_Click_4(object sender, RoutedEventArgs e)
+        private void genReport(object sender, RoutedEventArgs e)
         {
 
         }
