@@ -19,16 +19,9 @@ namespace WpfApp1
     {
         public MainWindow()
         {
-            void addButton() {
-                Window1 x = new Window1();
-                this.Hide();
-                x.Show();
-                this.Close();
-            }
+            
             InitializeComponent();
-            void AddProduct() { 
-               
-            }
+            
         }
 
         private void Add(object sender, RoutedEventArgs e)
