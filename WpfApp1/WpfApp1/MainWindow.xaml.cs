@@ -27,8 +27,8 @@ namespace WpfApp1
         private void Add(object sender, RoutedEventArgs e)
         {
             this.Hide();
-            Window1 x = new Window1();
-            x.Show();
+            Window1 d = new Window1();
+            d.Show();
             this.Close();
         }
 
@@ -42,7 +42,10 @@ namespace WpfApp1
 
         private void cahngeInfo(object sender, RoutedEventArgs e)
         {
-
+            this.Hide();
+            Window3 x = new Window3();
+            x.Show();
+            this.Close();
         }
 
         private void Delete(object sender, RoutedEventArgs e)
