@@ -8,29 +8,30 @@ namespace WpfApp1
 {
     public class Product
     {
-        int id { get; set; }
-        string name { get; set; }
-        string сategory { get; set; }
+       public int id { get; set; }
+        public string name { get; set; }
+        public string сategory { get; set; }
 
-        int date { get; set; }
+        public string date { get; set; }
 
-        int finDate { get; set; }
+        public string finDate { get; set; }
 
-        int count { get; set; }
+        public int count { get; set; }
 
-        int price { get; set; }
+        public int price { get; set; }
 
-        string producer { get; set; }
+        public string producer { get; set; }
 
-        int phoneNumber { get; set; }
+        public string phoneNumber { get; set; }
 
-        int startDate { get; set; }
+        public string startDate { get; set; }
 
-        int storageNumber { get; set; }
+        public int storageNumber { get; set; }
 
-        string about { get; set; }
+        public string about { get; set; }
 
-        string notes { get; set; }
+        public string notes { get; set; }
+
 
     }
 }

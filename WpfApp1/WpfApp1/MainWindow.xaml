@@ -7,10 +7,11 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button Margin="33,63,530,141" Click="Add">Додаит товар</Button>
-        <Button Margin="292,63,289,298" Click="showInfo">Переглянути інформацію про товар</Button>
-        <Button Margin="292,142,289,219" Click="cahngeInfo">Редагувати інформацію про товар</Button>
-        <Button Margin="292,220,289,141" Click="Delete">Видалити існуючий товар</Button>
-        <Button Margin="532,63,10,141" Click="genReport">Згенерувати Звіт</Button>
+        <Button Margin="46,10,445,194" Click="Add">Додаит товар</Button>
+      
+        <Button Margin="410,10,103,194" Click="cahngeInfo">Редагувати-переглянути</Button>
+
+       
+        <Button Margin="46,242,103,10" Click="genReport">Згенерувати Звіт</Button>
     </Grid>
 </Window>

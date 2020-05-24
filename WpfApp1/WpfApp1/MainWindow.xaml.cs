@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using MySql.Data;
 
 namespace WpfApp1
 {
@@ -32,26 +33,17 @@ namespace WpfApp1
             this.Close();
         }
 
-        private void showInfo(object sender, RoutedEventArgs e)
-        {
-            this.Hide();
-            Window2 x = new Window2();
-            x.Show();
-            this.Close();
-        }
+        
 
         private void cahngeInfo(object sender, RoutedEventArgs e)
         {
-            this.Hide();
+            
             Window3 x = new Window3();
             x.Show();
             this.Close();
         }
 
-        private void Delete(object sender, RoutedEventArgs e)
-        {
-
-        }
+        
 
         private void genReport(object sender, RoutedEventArgs e)
         {

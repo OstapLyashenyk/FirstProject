@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="Massage" Height="450" Width="800">
     <Grid>
-        <Button Click="Button_Click" Cursor="pointer" Background="LightGreen"/>
-        <TextBlock Padding="380px 200px" Text="Успіх" />
+        <Button Click="Button_Click" Background="LightGreen" Content="Успіх!"  />
+
     </Grid>
 </Window>
